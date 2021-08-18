@@ -1,0 +1,45 @@
+/* you can add to or change this. */
+.text {
+  font-size: 32px;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#winText {
+  font-size: 32px;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  transition: font-size 1s;
+}
+
+#game {
+  border: 2px solid black;
+  width: 305px;
+  height: 142px;
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  background-color: rgb(144, 204, 231);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cardOutline {
+  height: 65px;
+  width: 55px;
+  padding: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin: 3px;
+  display: inline-block;
+  
+}
+
+.cardBack {
+  background-color: white !important;
+}
